@@ -843,9 +843,6 @@ class AirTableCachingClient(object):
 
 if __name__ == "__example__":
     # Assume service account key, and AirTable PAT are stored
-    import logging
-    from barklion.gcp import SecretManagerClient
-    from barklion.core import AirTableCachingClient
 
     # Declare project_id and Airtable base you will be testing the webhook on
     project_id = ""
